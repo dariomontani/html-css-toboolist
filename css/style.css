@@ -3,24 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    line-height: 40px;
 }
 
 html{
     width: 1200px;
 }
 
+header, main{   
+    line-height: 40px;
+}
+
+nav, main{
+    background-color: white;
+}
+
 .container{
+    width: 800px;
     margin: 0 auto;
 }
 
 /* header logo */
 .logo{
-    vertical-align: middle;
+    vertical-align: center;
 }
 
 h1{
     display: inline-block;
+    font-size: 50px;
 }
 /* /header logo */
 
@@ -58,6 +67,7 @@ h2{
 
 /* section today */
 .editorial, .q1-goals, .recruiting, .mobile, .website, .sales{
+    font-size: 10px;
     color: white;
     padding: 5px;
     border-radius: 5px 5px 5px 5px;
