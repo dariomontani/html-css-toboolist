@@ -26,6 +26,11 @@ nav, main{
     margin: 0 auto;
 }
 
+.check-png, .cross-png{
+    width: 30px;
+    vertical-align: middle;
+ }
+
 /* header logo */
 header{
     background-color: white;
