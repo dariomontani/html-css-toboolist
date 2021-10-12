@@ -6,7 +6,34 @@
 }
 
 /* header logo */
+.logo{
+}
+
 h1{
     display: inline;
 }
 /* /header logo */
+
+/* nav add task add section */
+nav{
+    margin: 50px ;
+}
+
+.button-blue{
+    color: white;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+
+.button-white{
+    color: gray;
+    border-color: gray;
+}
+
+.button-blue, .button-white{
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px;
+}
+
+
+/* /nav add task add section */
