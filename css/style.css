@@ -3,14 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+
+html{
+    width: 1200px;
+}
+
+.container{
+    margin: 0 auto;
 }
 
 /* header logo */
 .logo{
+    vertical-align: middle;
 }
 
 h1{
-    display: inline;
+    display: inline-block;
 }
 /* /header logo */
 
@@ -44,18 +54,37 @@ h2{
 /* /main */
 
 /* section new task */
-.check{
-    display: block;
-    width: 20px;
-}
 /* /section new task */
 
 /* section today */
 .editorial, .q1-goals, .recruiting, .mobile, .website, .sales{
     color: white;
-    background-color: red;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
-.editorial{}
+.editorial{
+    background-color:#45ABE9 ;
+}
+
+.q1-goals{
+    background-color:#9C72E4 ;
+}
+
+.recruiting{
+    background-color:#64C0A8 ;
+}
+
+.mobile{
+    background-color:#F29E33 ;
+}
+
+.website{
+    background-color:#D863A0 ;
+}
+
+.sales{
+    background-color:#B0C926 ;
+}
 /* /section today */
 
