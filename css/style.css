@@ -16,7 +16,8 @@ h1{
 
 /* nav add task add section */
 nav{
-    margin: 50px ;
+    margin-top: 50px ;
+    margin-bottom: 25px;
 }
 
 .button-blue{
@@ -34,6 +35,27 @@ nav{
     border-radius: 5px 5px 5px 5px;
     padding: 8px;
 }
-
-
 /* /nav add task add section */
+
+/* main */
+h2{
+    display: inline-block;
+}
+/* /main */
+
+/* section new task */
+.check{
+    display: block;
+    width: 20px;
+}
+/* /section new task */
+
+/* section today */
+.editorial, .q1-goals, .recruiting, .mobile, .website, .sales{
+    color: white;
+    background-color: red;
+}
+
+.editorial{}
+/* /section today */
+
